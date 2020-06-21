@@ -1,69 +1,3 @@
- 1030  docker cp put.sh db:/tmp
- 1031  docker exec -ti db bash
- 1032  docker cp people.txt db:/tmp
- 1033  docker exec -ti db bash
- 1034  ls -l
- 1035  cd web/
- 1036  ls
- 1037  ls -l
- 1038  cat Dockerfile 
- 1039  ls
- 1040  cd conf/
- 1041  ls
- 1042  cat nginx.
- 1043  cat nginx.repo 
- 1044  cd ..
- 1045  ls
- 1046  ls -l
- 1047  cd bin/
- 1048  ls
- 1049  cat start.sh 
- 1050  cd ..
- 1051  clear
- 1052  cd ..
- 1053  ls
- 1054  cd ..
- 1055  cat docker-compose.yml 
- 1056  cd jenkins-ansible/
- 1057  cd web/
- 1058  ls
- 1059  cd ,,
- 1060  cd ..
- 1061  docker-compose build
- 1062  clear
- 1063  docker ps
- 1064  ipconfig
- 1065  ifcnfig
- 1066  ifconfig
- 1067  ifconfig | grep inet
- 1068  pwd
- 1069  cd ../jenkins/jenkins-data/
- 1070  ls
- 1071  cd jenkins
- 1072  cd jenkins-ansible/
- 1073  ls
- 1074  docker exec -it remote-host bash
- 1075  docker exec -it jenkins bash
- 1076  vi Dockerfile 
- 1077  cd ..
- 1078  cat docker-compose.yml 
- 1079  ls
- 1080  cd centos7/
- 1081  ls
- 1082  docker exec -it jenkins bash
- 1083  cd ..
- 1084  cp centos7/remote-key jenkins_home/ansible/
- 1085  ls jenkins_home/ansible/
- 1086  docker ps
- 1087  cd jenkins-ansible/
- 1088  cp ../centos7/remote-key .
- 1089  ll
- 1090  docker exec -it jenkins bash
- 1091  docker exec -it remote-host bash
- 1092  docker exec -it jenkins bash
- 1093  ls
- 1094  cp play1.yml ../jenkins_home/ansible/
- 1095  docker exec -it jenkins bash
  1096  docker logs -f jenkins 
  1097  docker ps
  1098  pwd
@@ -998,3 +932,69 @@
  2027  git status
  2028  ls
  2029  history > history.txt
+ 2030  cat history.txt 
+ 2031  clear
+ 2032  git branch
+ 2033  git checkout -b realwork
+ 2034  git status
+ 2035  git add history.txt 
+ 2036  git status
+ 2037  git commit -am 'change html'
+ 2038  gut statys
+ 2039  gut status
+ 2040  git checkout master
+ 2041  cat simple.html 
+ 2042  git status
+ 2043  git add simple.html 
+ 2044  git commit -am 'adding conflict change'
+ 2045  git status
+ 2046  git log --oneline --graph --decorate --all
+ 2047  git branch
+ 2048  clear
+ 2049  git diff master realwork 
+ 2050  git difftool master realwork 
+ 2051  clear
+ 2052  git status
+ 2053  git merge realwork 
+ 2054  git status
+ 2055  git log --oneline --graph --decorate --all
+ 2056  git brnach -d robots.txt
+ 2057  git brnach -d realwork
+ 2058  git branch -d realwork
+ 2059  git status
+ 2060  git checkout -b newbrnach test
+ 2061  git checkout -b newbrnachtest
+ 2062  git status
+ 2063  git commit -am 'change'
+ 2064  git checkout master
+ 2065  git status
+ 2066  git commit -am 'naster'
+ 2067  git merge newbrnachtest master
+ 2068  ls
+ 2069  cat simple.html 
+ 2070  clear
+ 2071  git mergetool
+ 2072  man diff
+ 2073  man colordiff
+ 2074  sudo apt-get install colordiff 
+ 2075  ls
+ 2076  git branch
+ 2077  git colordiff master newbranchtest
+ 2078  git diff master newbranchtest
+ 2079  git diff
+ 2080  git status
+ 2081  git checkout newbrnachtest 
+ 2082  git merge newbrnachtest 
+ 2083  git status
+ 2084  git rm .
+ 2085  git commit -am simple.html 
+ 2086  git status
+ 2087  git ls-files
+ 2088  git status
+ 2089  git merge newbrnachtest 
+ 2090  git log --oneline --graph --decorate --all
+ 2091  clear
+ 2092  git branch
+ 2093  git branch -d realwork
+ 2094  git branch -d newbrnachtest 
+ 2095  history > history.txt 
