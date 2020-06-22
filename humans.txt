@@ -3,7 +3,7 @@
 
 tearqewqeqwe TEAM
 
-    <name> -- <role> -- <twitter>
+    <name> --please leave review if you read that file <role> -- <twitter>
 
 # THANKS
 
