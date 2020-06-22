@@ -1,0 +1,1000 @@
+ 1220  docker rn ff 43 le
+ 1221  docker rm ff 43 le
+ 1222  docker ps -a
+ 1223  docker rm nostalgic_lalande 
+ 1224  docker images
+ 1225  cd
+ 1226  ls
+ 1227  docker rmi 24 46 b0
+ 1228  docker images
+ 1229  docker rm dl c7
+ 1230  docker rmi dl c7
+ 1231  docker images
+ 1232  docker rmi d1
+ 1233  clear
+ 1234  cd $HOME
+ 1235  ls
+ 1236  pwd
+ 1237  cd ../jenkins/jenkins-data/
+ 1238  ls
+ 1239  docker-compose build
+ 1240  docker images
+ 1241  docker-compose up
+ 1242  docker ps -a
+ 1243  docker ps
+ 1244  docker images
+ 1245  docker ps
+ 1246  uname -s
+ 1247  uname -m
+ 1248  user
+ 1249  docker ps
+ 1250  sudo reboot
+ 1251  docker ps
+ 1252  cd ../jenkins/jenkins-data/
+ 1253  docker-compose up -d
+ 1254  docker ps
+ 1255  docker exec -it jenkins bash
+ 1256  cd /srv/gitlab/
+ 1257  ls
+ 1258  cat config/
+ 1259  ls
+ 1260  cd config/
+ 1261  ls
+ 1262  cd ..
+ 1263  cd data/
+ 1264  ls
+ 1265  cd ..
+ 1266  cd logs/
+ 1267  ls
+ 1268  cd sshd/
+ 1269  ls
+ 1270  cd
+ 1271  ls
+ 1272  docker ps
+ 1273  docker stop git-server
+ 1274  docker ps -a
+ 1275  docker rm 7e
+ 1276  docker images
+ 1277  docker rmi gitlab/gitlab-ce:latest 
+ 1278  cd /home/jenkins/jenkins-data/
+ 1279  ls
+ 1280  docker-compose build
+ 1281  docker-compose up
+ 1282  docker-compose stop
+ 1283  docker-compose up -d
+ 1284  ls
+ 1285  cd ../jenkins/jenkins-data/jenkins
+ 1286  cd ../jenkins/jenkins-data/
+ 1287  docker-compose up
+ 1288  clear
+ 1289  netstat
+ 1290  cd /srv/gitlab/
+ 1291  ls
+ 1292  cd config/
+ 1293  ls
+ 1294  rm -rf *
+ 1295  docker ps
+ 1296  cd /srv/gitlab/dc
+ 1297  cd /srv/gitlab/config/
+ 1298  ls -l
+ 1299  su root
+ 1300  docker-compose up 
+ 1301  docker ps -a
+ 1302  docker ps
+ 1303  docker rm git-server 
+ 1304  docker images
+ 1305  docker ps
+ 1306  docker-compose up -d
+ 1307  docker logs -f jenkins 
+ 1308  cd ../jenkins/jenkins-data/
+ 1309  ls
+ 1310  docker logs -f git-server
+ 1311  docker ps -a
+ 1312  docker rm git-server 
+ 1313  docker images
+ 1314  docker rmi gitlab/gitlab-ce:latest 
+ 1315  docker-compose build
+ 1316  docker-compose up -d
+ 1317  docker logs -f git-server
+ 1318  docker stop git-server 
+ 1319  docker-compose down
+ 1320  docker-compose up -d
+ 1321  docker-compose logs -f
+ 1322  clear
+ 1323  su itai
+ 1324  pip install git
+ 1325  sudo apt-get git
+ 1326  sudo apt-get install git
+ 1327  sudo apt-get install -y git
+ 1328  docker ps
+ 1329  git config --global user.name "itai masasa"
+ 1330  git config --global user.email "itaimasasa@gmail.com"
+ 1331  git clone http://gitlab.example.com/itai/itai-first-project.git
+ 1332  sudo reboot
+ 1333  docker-compose build
+ 1334  useradd testuser
+ 1335  useradd testuser1
+ 1336  sudo useradd testuser1
+ 1337  docker images
+ 1338  docker run -it ubuntu 
+ 1339  groups
+ 1340  groups itai
+ 1341  usermod -aG sudo newuser
+ 1342  usermod -aG sudo newuser2
+ 1343  usermod -aG sudo newuseritai
+ 1344  usermod -aG sudo scmbuild
+ 1345  users
+ 1346  users -l
+ 1347  users --help
+ 1348  sudo adduser sys_sys
+ 1349  docker run -it ubuntu 
+ 1350  docker-compose build
+ 1351  docker-compose up 
+ 1352  pwd
+ 1353  cd frash-project/
+ 1354  unzip *.zip
+ 1355  ls -l
+ 1356  rm -rf initializr-verekia-4.0.zip 
+ 1357  cd initializr/
+ 1358  ls
+ 1359  ls -l
+ 1360  cd ..
+ 1361  mv initializr/ web-project
+ 1362  cd web-project/
+ 1363  pwd
+ 1364  ls -l
+ 1365  git init
+ 1366  ls -al
+ 1367  git staus
+ 1368  git status
+ 1369  git add .
+ 1370  git status
+ 1371  git commit -m "My first commit , inline"
+ 1372  git status
+ 1373  ls -al
+ 1374  rm -rg .git/
+ 1375  rm -rf .git/
+ 1376  ls -al
+ 1377  cd ..
+ 1378  rm -rf web-project/
+ 1379  cd %home%
+ 1380  cd $HOME
+ 1381  pwd
+ 1382  ls -l
+ 1383  ssh key-gen
+ 1384  ssh-keygen
+ 1385  cd .ssh/
+ 1386  ls -l
+ 1387  cat id_rsa.pub 
+ 1388  cd
+ 1389  ls
+ 1390  pwd
+ 1391  git clone git@gitlab.com:itai_masasa/itai-project.git
+ 1392  ls -l
+ 1393  cd itai-project/
+ 1394  ls
+ 1395  ls -l
+ 1396  git sttus
+ 1397  git status
+ 1398  git init
+ 1399  ls -l
+ 1400  cd .git/
+ 1401  ls
+ 1402  cd ..
+ 1403  echo "itai-masasa-text-test" > test.txt
+ 1404  git status
+ 1405  git add test.txt 
+ 1406  git status
+ 1407  git commit -m "new text file"
+ 1408  git status
+ 1409  git push
+ 1410  cd
+ 1411  pwd
+ 1412  ls -l
+ 1413  mkdir frash-project
+ 1414  cd frash-project/
+ 1415  git init fresh-project
+ 1416  ls -l
+ 1417  cd fresh-project/
+ 1418  ls -al
+ 1419  git status
+ 1420  echo "hello hipster" >  hipster.txt
+ 1421  git status
+ 1422  git add hipster.txt 
+ 1423  git status
+ 1424  git commit
+ 1425  git status
+ 1426  cd ..
+ 1427  ls
+ 1428  rm -rf fresh-project/
+ 1429  cd
+ 1430  pwd
+ 1431  ls -l
+ 1432  mkdir projects
+ 1433  cd projects/
+ 1434  git clone git@github.com:itaimasasa/starter-web.git
+ 1435  ls
+ 1436  cd starter-web/
+ 1437  ls
+ 1438  ls -al
+ 1439  cd .git/
+ 1440  ls
+ 1441  cd ..
+ 1442  clear
+ 1443  git status
+ 1444  בג
+ 1445  cd
+ 1446  pwd
+ 1447  ls -l
+ 1448  cd projects/
+ 1449  ls
+ 1450  cd starter-web/
+ 1451  git status
+ 1452  clear
+ 1453  mate
+ 1454  echo test1 > hipster.txt
+ 1455  clear
+ 1456  ls
+ 1457  git status
+ 1458  git add hipster.txt 
+ 1459  git status
+ 1460  git commit -m "add new text file"
+ 1461  git status
+ 1462  git pull origin master
+ 1463  git push origin master
+ 1464  git push git@github.com:itaimasasa/starter-web.git master
+ 1465  git satus
+ 1466  git status
+ 1467  git push git@github.com:itaimasasa/starter-web.git master
+ 1468  cd .git/
+ 1469  ls
+ 1470  cat config 
+ 1471  cd
+ 1472  cat ~/.gitconfig
+ 1473  cd ~/.gitconfig
+ 1474  ls ~/.gitconfig
+ 1475  cd projects/
+ 1476  cd starter-web/
+ 1477  ls
+ 1478  git status
+ 1479  vi hipster.txt 
+ 1480  git status
+ 1481  git commit -am "adding line to hipster"
+ 1482  git status
+ 1483  git ls-files
+ 1484  vi newfile.txt
+ 1485  ls
+ 1486  git status
+ 1487  git ls-ffiles
+ 1488  git ls-files
+ 1489  git add newfile.txt 
+ 1490  git status
+ 1491  git ls-giles
+ 1492  vi hipster.txt 
+ 1493  git status
+ 1494  git commit -m "new file"
+ 1495  git status
+ 1496  git add hipster.txt 
+ 1497  git status
+ 1498  vi hipster.txt 
+ 1499  git status
+ 1500  git add hipster.txt 
+ 1501  git status
+ 1502  git commit -m "3rd line "
+ 1503  git status
+ 1504  mkdir -p level1/level2/level3/level5
+ 1505  cd level1/
+ 1506  vi level1-file.txt
+ 1507  cd level2/
+ 1508  vi level2-file.txt
+ 1509  cd level3/
+ 1510  vi level3-file.txt
+ 1511  cat "level3" >  level3-file.txt
+ 1512  echo "level3" >  level3-file.txt
+ 1513  cd ../../..
+ 1514  ls
+ 1515  git status
+ 1516  cd level1/
+ 1517  git status
+ 1518  ls
+ 1519  cd ,,
+ 1520  cd ..
+ 1521  git add .
+ 1522  git status
+ 1523  git commit -m "new files adding"
+ 1524  git status
+ 1525  cd level1/
+ 1526  ls
+ 1527  vi level1-file.txt 
+ 1528  git status
+ 1529  git add level1-file.txt 
+ 1530  git status
+ 1531  vi level1-file.txt 
+ 1532  git sta
+ 1533  git status
+ 1534  git reset HEAD level1-file.txt
+ 1535  git status
+ 1536  cat level1-file.txt 
+ 1537  clear
+ 1538  git status
+ 1539  git checkout -- level1-file.txt
+ 1540  git status
+ 1541  vi level1-file.txt 
+ 1542  clear
+ 1543  cd level2/level3/
+ 1544  pwd
+ 1545  ls
+ 1546  rmdir level5/
+ 1547  git status
+ 1548  git mv level3-file.txt  level3.txt 
+ 1549  rmdir level5/
+ 1550  git status
+ 1551  git commit -m "renaming level3 file"
+ 1552  git status
+ 1553  cd ..
+ 1554  git status
+ 1555  ls
+ 1556  mv level2-file.txt level2.txt
+ 1557  git status
+ 1558  git add -A
+ 1559  git status
+ 1560  git commit -m "rename new file"
+ 1561  clear
+ 1562  ls
+ 1563  git mv level2.txt 2.txt
+ 1564  ls
+ 1565  git add -A
+ 1566  git status
+ 1567  git mv 2.txt level2.txt
+ 1568  ls
+ 1569  git status
+ 1570  mv level2.txt level3
+ 1571  cd level3/
+ 1572  ls
+ 1573  git status
+ 1574  git add -A
+ 1575  git status
+ 1576  cd 
+ 1577  cd projects/starter-web/level1/level2/
+ 1578  git status
+ 1579  git commit -m "move to level3"
+ 1580  ls
+ 1581  cd level3/
+ 1582  ls
+ 1583  cd ..
+ 1584  cd level3/
+ 1585  mv level2.txt ..
+ 1586  ls
+ 1587  cd ..
+ 1588  ls
+ 1589  git status
+ 1590  git add -A
+ 1591  git status
+ 1592  git commit -m "move file back"
+ 1593  cd ..
+ 1594  ls
+ 1595  git status
+ 1596  cd level2/
+ 1597  git status
+ 1598  cd ..
+ 1599  git add level1.txt 
+ 1600  git status
+ 1601  git add -u
+ 1602  git status
+ 1603  git commit "rename level1 file"
+ 1604  git commit -m "rename level1 file"
+ 1605  git status
+ 1606  בג
+ 1607  cd ..
+ 1608  clear
+ 1609  echo "test to remove git" > dommed.txt
+ 1610  ךד
+ 1611  ls
+ 1612  git status
+ 1613  git rm dommed.txt 
+ 1614  rm dommed.txt 
+ 1615  git status
+ 1616  echo "test to remove git" > dommed.txt
+ 1617  rm dommed.txt 
+ 1618  git ls-files
+ 1619  cat newfile.txt 
+ 1620  git rm newfile.txt 
+ 1621  git status
+ 1622  git commit -m "remove file"
+ 1623  ls
+ 1624  git ls-files
+ 1625  git rm hipster.txt 
+ 1626  ls
+ 1627  git status
+ 1628  git reset HEAD humans.txt
+ 1629  git reset HEAD hipster.txt
+ 1630  ls
+ 1631  git status
+ 1632  git checkout -- hipster.txt
+ 1633  ls
+ 1634  git status
+ 1635  rm hipster.txt 
+ 1636  git status
+ 1637  git add -A
+ 1638  git status
+ 1639  git commit -m "deleted hipster.txt"
+ 1640  git status
+ 1641  rm -rf level1/
+ 1642  git status 
+ 1643  git add -A
+ 1644  git status 
+ 1645  git commit -m "deleting level1"
+ 1646  git status 
+ 1647  cd
+ 1648  git help log
+ 1649  cd projects/
+ 1650  cd starter-web/
+ 1651  git status
+ 1652  git log
+ 1653  cd .git/
+ 1654  ls
+ 1655  cat config 
+ 1656  cd
+ 1657  cd .ssh/
+ 1658  cat id_rsa.pub 
+ 1659  ssh-keygen
+ 1660  cat id_rsa.pub 
+ 1661  ls 
+ 1662  rm -rf *
+ 1663  ssh-keygen
+ 1664  cat id_rsa.pub 
+ 1665  cd projects/starter-web/
+ 1666  git status
+ 1667  echo "*.logs" > .gitignore
+ 1668  git status
+ 1669  git add .gitignore 
+ 1670  git status
+ 1671  git commit -m "adding .gitignore file"
+ 1672  git status
+ 1673  touch test.logs
+ 1674  git status
+ 1675  git pull origin master
+ 1676  git push origin master
+ 1677  ls
+ 1678  vi README.md
+ 1679  ls
+ 1680  touch README.md
+ 1681  cat README.md 
+ 1682  git status
+ 1683  clear
+ 1684  ls -l
+ 1685  git status
+ 1686  rm README.md 
+ 1687  git status
+ 1688  git rm README.md 
+ 1689  git status
+ 1690  git commit -m "Deleting"
+ 1691  git status
+ 1692  touch README.md
+ 1693  ls
+ 1694  git status
+ 1695  git add README.md 
+ 1696  git status
+ 1697  git commit -m "Deleting"
+ 1698  git push origin master
+ 1699  git status
+ 1700  clear
+ 1701  git diff
+ 1702  git difftool
+ 1703  ls
+ 1704  echo "test test test" >> README.md 
+ 1705  git status
+ 1706  git diff
+ 1707  git commit -m " check"
+ 1708  git commit -am " check"
+ 1709  git statu
+ 1710  git status
+ 1711  clear
+ 1712  git status
+ 1713  git diff
+ 1714  git status
+ 1715  echo "test test test" >> README.md 
+ 1716  git status
+ 1717  echo "test test test" >> README.md 
+ 1718  git status
+ 1719  git commit -m " t"
+ 1720  git status
+ 1721  clear
+ 1722  git add README.md 
+ 1723  git status
+ 1724  echo "test test test" >> README.md 
+ 1725  git status
+ 1726  git diff HEAD
+ 1727  git diff --stage HEAD
+ 1728  git diff --staged HEAD
+ 1729  clear
+ 1730  status
+ 1731  git status
+ 1732  git add README.md 
+ 1733  git status
+ 1734  git commit -m " t"
+ 1735  git status
+ 1736  ךד
+ 1737  ls
+ 1738  vi simple.html 
+ 1739  git status
+ 1740  git log --oneline
+ 1741  git diff ae 16
+ 1742  git diff ae76e5b HEAD
+ 1743  git diff HEAD HEAD^
+ 1744  git log --oneline
+ 1745  git diff 5c050407 29d8859
+ 1746  git log --oneline
+ 1747  git diff 29d8859 fce99f2
+ 1748  cd /home/
+ 1749  ls
+ 1750  cd ..
+ 1751  cd
+ 1752  ls
+ 1753  cd projects/
+ 1754  ls
+ 1755  cd starter-web/
+ 1756  git status
+ 1757  git pull origin master
+ 1758  echo "new test" testnew.txt
+ 1759  echo "new test" > testnew.txt
+ 1760  git status
+ 1761  git add testnew.txt 
+ 1762  git commit -m "test"
+ 1763  git status
+ 1764  git diff master origin/master
+ 1765  git push origin master
+ 1766  git diff master origin/master
+ 1767  cle
+ 1768  git branch mynewbranch
+ 1769  git branch -a
+ 1770  git chckout mynewbranch
+ 1771  git checkout mynewbranch
+ 1772  git branch -a
+ 1773  git log --oneline --decorate
+ 1774  git checkout master
+ 1775  git branch -m mynewbranch newbranch
+ 1776  git branch -a
+ 1777  git branch -d newbranch 
+ 1778  git branch -a
+ 1779  clear
+ 1780  git status
+ 1781  clear
+ 1782  git branch -a
+ 1783  git branch 
+ 1784  clear
+ 1785  git checkout -b title-change
+ 1786  git branch -a
+ 1787  git branch
+ 1788  git status
+ 1789  clear
+ 1790  git status
+ 1791  git commit -m "new line"
+ 1792  git commit -am "new line"
+ 1793  git status
+ 1794  clkear
+ 1795  git log --oneline
+ 1796  git checkout master
+ 1797  git status
+ 1798  git diff master title-change
+ 1799  git diff origin/master title-change
+ 1800  docker ps
+ 1801  clear
+ 1802  cd projects/starter-web/
+ 1803  git status
+ 1804  history
+ 1805  echo $history > x.txt
+ 1806  cat x.txt 
+ 1807  history
+ 1808  %history%
+ 1809  $history
+ 1810  HISTORY
+ 1811  $HISTORY
+ 1812  history
+ 1813  clear
+ 1814  history > x.txt
+ 1815  git status
+ 1816  git ls-files
+ 1817  git ls-files | grep *.txt
+ 1818  git ls-files | grep txt
+ 1819  git mv x.txt history.txt
+ 1820  mv x.txt hsitory.txt
+ 1821  git status
+ 1822  git add hsitory.txt 
+ 1823  git status
+ 1824  git commit -m "add history text file"
+ 1825  git status
+ 1826  clear
+ 1827  git branch -a
+ 1828  git branch title-change 
+ 1829  git checkout title-change 
+ 1830  ls
+ 1831  history > hsitory.txt
+ 1832  git status
+ 1833  git add hsitory.txt 
+ 1834  git status
+ 1835  git pull origin master
+ 1836  ls
+ 1837  git status
+ 1838  git commit -m "add to branch"
+ 1839  clear
+ 1840  git status
+ 1841  git checkout master
+ 1842  clear
+ 1843  ls
+ 1844  git rm hsitory.txt 
+ 1845  git status
+ 1846  git commit -m "delete"
+ 1847  git branch
+ 1848  git checkout title-change 
+ 1849  ls
+ 1850  git status
+ 1851  git checkout master 
+ 1852  ls
+ 1853  git status
+ 1854  git push origin master
+ 1855  git branch -a 
+ 1856  git checkout title-change 
+ 1857  ls
+ 1858  git status
+ 1859  echo "this is a branch test" > hsitory.txt 
+ 1860  git pull origin master
+ 1861  ls
+ 1862  cat hsitory.txt 
+ 1863  git status
+ 1864  git add hsitory.txt 
+ 1865  git push origin master
+ 1866  cat hsitory.txt 
+ 1867  git checkout master 
+ 1868  git status
+ 1869  cat hsitory.txt 
+ 1870  git reset HEAD hsitory.txt
+ 1871  git status
+ 1872  git rm hsitory.txt 
+ 1873  git rm -rg hsitory.txt 
+ 1874  git rm -rf hsitory.txt 
+ 1875  git status
+ 1876  git commit -m "test"
+ 1877  git push origin title-change 
+ 1878  cd
+ 1879  cd .ssh/
+ 1880  cat id_rsa.pub 
+ 1881  df -kh /home
+ 1882  cd
+ 1883  cd projects/
+ 1884  ls
+ 1885  cd starter-web/
+ 1886  git logs
+ 1887  git log
+ 1888  clear
+ 1889  git log --abbrev-commit
+ 1890  git status
+ 1891  git log --oneline --graph --decorate
+ 1892  clear
+ 1893  ls
+ 1894  git log --follow -- level1/level2
+ 1895  git log hipster.txt
+ 1896  git history
+ 1897  git log --all --graph --decorate --oneline
+ 1898  git alias
+ 1899  git hist
+ 1900  git config --global alias.hist
+ 1901  git hist
+ 1902  git alais
+ 1903  git config --global alias.hist "git log --all --graph --decorate --oneline"
+ 1904  git alias
+ 1905  git config --global alias.hist "git log --allate --oneline"
+ 1906  git alias
+ 1907  vi ~/.gitconfig
+ 1908  git status
+ 1909  cd 
+ 1910  cd projects/
+ 1911  cd starter-web/
+ 1912  git status
+ 1913  git chcheckout master
+ 1914  git checkout master
+ 1915  git pull origin master
+ 1916  ls -l
+ 1917  git checkout -b newbranch1
+ 1918  git status
+ 1919  git pull origin master
+ 1920  git status
+ 1921  cat > newbranch1.txt
+ 1922  ls -l
+ 1923  git ls-files
+ 1924  git status
+ 1925  git add newbranch1.txt 
+ 1926  git status
+ 1927  git commit -m "new brnach 1"
+ 1928  git status
+ 1929  git checkout master
+ 1930  git diff master newbranch1
+ 1931  ls
+ 1932  git checkout -b newbranch2
+ 1933  git status
+ 1934  ls
+ 1935  cat > newbranch2.txt
+ 1936  ls
+ 1937  git status
+ 1938  git add newbranch2.txt 
+ 1939  git status
+ 1940  git commit -m 'new branch test'
+ 1941  git status
+ 1942  git checkout master
+ 1943  git logs 
+ 1944  git logs
+ 1945  git log
+ 1946  cd projects/w
+ 1947  cd projects/starter-web/
+ 1948  git status
+ 1949  git branch -a
+ 1950  git diff master origin/master
+ 1951  git diff master newbranch2
+ 1952  git diff master newbranch1
+ 1953  git diff newbranch1 newbranch2
+ 1954  git merge newbranch1 master
+ 1955  git status
+ 1956  ls
+ 1957  git merge newbranch2 master
+ 1958  git status
+ 1959  ls 
+ 1960  git push origin/master
+ 1961  git status
+ 1962  git push
+ 1963  clear
+ 1964  git branch
+ 1965  git branch --help
+ 1966  git branch --delete newbranch1
+ 1967  git branch --delete newbranch2
+ 1968  git branch --delete title-change 
+ 1969  git checkout title-change 
+ 1970  git status
+ 1971  ls
+ 1972  git checkout masyer
+ 1973  git checkout master
+ 1974  git merge title-change mster
+ 1975  git merge title-change master
+ 1976  git status
+ 1977  git branch
+ 1978  git branch --delete title-change 
+ 1979  git status
+ 1980  git push
+ 1981  git status
+ 1982  clear
+ 1983  git status
+ 1984  git branch
+ 1985  git checkout -b simple-changes
+ 1986  cat humans.txt 
+ 1987  vi humans.txt 
+ 1988  git status
+ 1989  cat humans.txt 
+ 1990  vi humans.txt 
+ 1991  git status
+ 1992  git add -am humans.txt 
+ 1993  git commit -am 'edit file' 
+ 1994  git checkout master
+ 1995  git status
+ 1996  vi README.md 
+ 1997  git status
+ 1998  git commit -am 'read me'
+ 1999  git log
+ 2000  cd projects/starter-web/
+ 2001  ls
+ 2002  git log --oneline --graph --decorate --all
+ 2003  git branch
+ 2004  git merge simple-changes master
+ 2005  git status
+ 2006  git rm exit 
+ 2007  git add exit 
+ 2008  git rm exs
+ 2009  git rm exit
+ 2010  git rm -f exit
+ 2011  git status
+ 2012  git log --oneline --graph --decorate --all
+ 2013  clear
+ 2014  git branch
+ 2015  git checkout simple-changes 
+ 2016  git status
+ 2017  git checkout master 
+ 2018  git branch --delete simple-changes 
+ 2019  git status
+ 2020  git merge simple-changes master
+ 2021  git log --oneline --graph --decorate --all
+ 2022  clear
+ 2023  git branch
+ 2024  git branch --delete simple-changes 
+ 2025  git log --oneline --graph --decorate --all
+ 2026  clear
+ 2027  git status
+ 2028  ls
+ 2029  history > history.txt
+ 2030  cat history.txt 
+ 2031  clear
+ 2032  git branch
+ 2033  git checkout -b realwork
+ 2034  git status
+ 2035  git add history.txt 
+ 2036  git status
+ 2037  git commit -am 'change html'
+ 2038  gut statys
+ 2039  gut status
+ 2040  git checkout master
+ 2041  cat simple.html 
+ 2042  git status
+ 2043  git add simple.html 
+ 2044  git commit -am 'adding conflict change'
+ 2045  git status
+ 2046  git log --oneline --graph --decorate --all
+ 2047  git branch
+ 2048  clear
+ 2049  git diff master realwork 
+ 2050  git difftool master realwork 
+ 2051  clear
+ 2052  git status
+ 2053  git merge realwork 
+ 2054  git status
+ 2055  git log --oneline --graph --decorate --all
+ 2056  git brnach -d robots.txt
+ 2057  git brnach -d realwork
+ 2058  git branch -d realwork
+ 2059  git status
+ 2060  git checkout -b newbrnach test
+ 2061  git checkout -b newbrnachtest
+ 2062  git status
+ 2063  git commit -am 'change'
+ 2064  git checkout master
+ 2065  git status
+ 2066  git commit -am 'naster'
+ 2067  git merge newbrnachtest master
+ 2068  ls
+ 2069  cat simple.html 
+ 2070  clear
+ 2071  git mergetool
+ 2072  man diff
+ 2073  man colordiff
+ 2074  sudo apt-get install colordiff 
+ 2075  ls
+ 2076  git branch
+ 2077  git colordiff master newbranchtest
+ 2078  git diff master newbranchtest
+ 2079  git diff
+ 2080  git status
+ 2081  git checkout newbrnachtest 
+ 2082  git merge newbrnachtest 
+ 2083  git status
+ 2084  git rm .
+ 2085  git commit -am simple.html 
+ 2086  git status
+ 2087  git ls-files
+ 2088  git status
+ 2089  git merge newbrnachtest 
+ 2090  git log --oneline --graph --decorate --all
+ 2091  clear
+ 2092  git branch
+ 2093  git branch -d realwork
+ 2094  git branch -d newbrnachtest 
+ 2095  history > history.txt 
+ 2096  git status
+ 2097  git commit -am 'new history;
+ 2098  git commit -am 'new history'
+ 2099  git status
+ 2100  git push 
+ 2101  git status
+ 2102  git diff master origin/master
+ 2103  mkdir paths
+ 2104  git status
+ 2105  ls
+ 2106  rmdir paths/
+ 2107  git status
+ 2108  cat > newtest.txt
+ 2109  git status
+ 2110  git add newtest.txt 
+ 2111  git status
+ 2112  git commit -m"test"
+ 2113  git diff master origin/master
+ 2114  git pull origin master
+ 2115  git push
+ 2116  clear
+ 2117  git status
+ 2118  clear
+ 2119  git checkout -b myfeature
+ 2120  git status
+ 2121  git commit -am 'thansk to all my student'
+ 2122  git checkout master
+ 2123  git status
+ 2124  git commit -am "adding line"
+ 2125  clear
+ 2126  git log --oneline --graph --decorate --all
+ 2127  git checkout myfeature 
+ 2128  git status
+ 2129  git rebase master
+ 2130  git status
+ 2131  git log --oneline --graph --decorate --all
+ 2132  clear
+ 2133  git log --oneline --graph --decorate --all
+ 2134  cat > README.md 
+ 2135  git status
+ 2136  git commit -am 'new test rebase'
+ 2137  git log --oneline --graph --decorate --all
+ 2138  clear
+ 2139  git status
+ 2140  git checkout myfeature 
+ 2141  git diff master myfeature 
+ 2142  git merge myfeature 
+ 2143  git status
+ 2144  git checkout master
+ 2145  git merge myfeature 
+ 2146  git log --oneline --graph --decorate --all
+ 2147  git branch -d myfeature 
+ 2148  clear
+ 2149  ls
+ 2150  git status
+ 2151  git commit -am 'new line'
+ 2152  git checkout -b bigtrouble
+ 2153  git status
+ 2154  git checkout master
+ 2155  git status
+ 2156  git commit -am 'commit all'
+ 2157  git branch
+ 2158  git difftool master bigtrouble 
+ 2159  git diff master bigtrouble 
+ 2160  git checkout bigtrouble 
+ 2161  git rebase master
+ 2162  git ststaus
+ 2163  git status
+ 2164  clear
+ 2165  git branch -d bigtrouble 
+ 2166  git status
+ 2167  git checkout master 
+ 2168  git status
+ 2169  git branch -d bigtrouble 
+ 2170  clear
+ 2171  git statusd
+ 2172  git status
+ 2173  git branch
+ 2174  git push
+ 2175  git status
+ 2176  clear
+ 2177  git status
+ 2178  git commit -am 'commit all'
+ 2179  git statu
+ 2180  git status
+ 2181  git fetch origin master
+ 2182  cat index.html 
+ 2183  cat index.html | grep new
+ 2184  clear
+ 2185  git status
+ 2186  git pull --rebase origin master
+ 2187  cat index.html 
+ 2188  cat index.html | grep new
+ 2189  git status
+ 2190  git log --oneline --graph --decorate --all
+ 2191  clear
+ 2192  git stash list
+ 2193  ls -al
+ 2194  vi humans.txt 
+ 2195  git status
+ 2196  git stash apply
+ 2197  git stash
+ 2198  git status
+ 2199  git stash lsit
+ 2200  git stash list
+ 2201  ls -al
+ 2202  vi testnew.txt 
+ 2203  git status
+ 2204  git stach 
+ 2205  git stash 
+ 2206  git stash lsit
+ 2207  git stash list
+ 2208  git stash apply
+ 2209  git commit -am 'testnew'
+ 2210  git tatus
+ 2211  git branch
+ 2212  git status
+ 2213  git push origin master
+ 2214  clear
+ 2215  git status
+ 2216  git log --oneline --graph --decorate --all
+ 2217  clear
+ 2218  history
+ 2219  history > history1.txt
